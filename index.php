@@ -112,6 +112,4 @@
 		
 			<div class='inter_bloc'></div>
 		
-		<?php include('includes/footer.php'); ?>
-		<p>blabla</P>
-	
+		<?php include('includes/footer.php'); ?>	

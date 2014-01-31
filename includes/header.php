@@ -18,5 +18,3 @@
 				<?php include('includes/menu.php'); ?>
 			</div>
 		</div>
-	
-		

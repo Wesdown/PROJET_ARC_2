@@ -23,7 +23,7 @@
 			<li>
 				<a>
 					<div class='menu_icon'>
-						<img src='images/home.png' />
+						<span class='font_maison'>a</span>
 					</div>
 					<div class='menu_content'>
 						<h2>Prestations</h2>
@@ -35,4 +35,4 @@
 				</ul>
 			</li>
 		</div>	
-	</ul
+	</ul>
