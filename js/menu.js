@@ -1,20 +1,34 @@
 $(document).ready(function(){
 
-	var ref = $(".niveau_accueil li");
+	// Modification du placement du bloc des produits
+
+	var ref = $(".niveau_prestations li");
 	var nbelement = ref.length;
 	var hauteur = ref.height();
 
 	var h = 33*nbelement;
 
-	// Modification du placement du bloc des prestations
-
-	$('#accueil li').mouseover(function() {
-		$('#prestations').css("margin-top", h);
+	$('#prestations li').mouseover(function() {
+		$('#produits').css("margin-top", h);
 	});
 	
-	$('#accueil li').mouseout(function() {
-		$('#prestations').css("margin-top", (h - h));
+	$('#prestations li').mouseout(function() {
+		$('#produits').css("margin-top", (h - h));
 	});
 
-	//
+	// Modification du placement du bloc des partenaires
+
+	var ref = $(".niveau_produits li");
+	var nbelement = ref.length;
+	var hauteur = ref.height();
+
+	var h = 33*nbelement;
+
+	$('#produits li').mouseover(function() {
+		$('#partenaires').css("margin-top", h);
+	});
+	
+	$('#produits li').mouseout(function() {
+		$('#partenaires').css("margin-top", (h - h));
+	});
 });

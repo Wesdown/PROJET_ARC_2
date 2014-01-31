@@ -45,10 +45,6 @@ body {
 	
 }
 
-#contener-header {
-	border: 1px solid black;			
-}
-
 /************** CONTENER **************/
 
 #contener {
@@ -298,5 +294,19 @@ body {
 
 #prestations {
 	-webkit-transition: 1s;
+	border-top: 1px solid black;
+}
+
+#produits {
+	-webkit-transition: 1s;
+	border-top: 1px solid black;
+}
+
+#partenaires {
+	-webkit-transition: 1s;
+	border-top: 1px solid black;
+}
+
+#contact {
 	border-top: 1px solid black;
 }
