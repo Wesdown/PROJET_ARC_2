@@ -1,0 +1,302 @@
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eee8e8;
+	font-family: arial;	
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.inter_bloc {
+	border-top: 1px solid #E7E6E6;
+	box-shadow: 1px 1px 1px grey;
+	width: 90%;
+	margin: 0 auto;
+	clear: both;
+}
+
+/************** HEADER **************/
+
+#header {
+	background-color: #fff;
+	width: 20%;
+	height: 100%;
+	float: left;
+	position: fixed;
+	border-right: 4px solid #F5931F;
+}
+
+.logo {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.inter_bloc_header {
+	margin: 0 auto;
+	margin-top: 10px;
+	border-bottom: 1px solid #E7E6E6;
+	width: 70%;
+
+	
+}
+
+#contener-header {
+	border: 1px solid black;			
+}
+
+/************** CONTENER **************/
+
+#contener {
+	width: 80%;
+	margin: 0 auto;
+	background-color: #fff;
+	float: right;
+	clear: both;
+	border-left: 4px solid #0089CF; 
+}
+
+#introduction {
+	width: 600px;
+	margin-left: 50px;
+	margin-bottom: 25px;
+}
+
+#presentation {
+	width: 500px;	
+	display: block;
+	float: right;
+	clear: both;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+
+#webmail {	
+	display: block;
+	width: 500px;	
+	float: left;
+	clear: both;
+	margin-left: 50px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+
+/************** ITEM METIER **************/
+
+.prestation {
+	margin-left: 50px;
+}
+
+#txt_integration {
+	display: block;
+	float: right;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-right: 150px;
+}
+
+
+#img_integration {
+	display: block;
+	float: left;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+
+#txt_formation {
+	display: block;
+	float: left;
+	clear: both;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-left: 150px;
+}
+
+#img_formation {
+	display: block;
+	float: right;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-right: 50px;
+}
+
+#txt_fournisseur_internet {
+	display: block;
+	float: right;
+	clear: both;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-right: 150px;
+}
+
+#img_fournisseur_internet {
+	display: block;
+	float: left;
+	margin-bottom: 25px;
+	margin-top: 80px;
+	margin-left: 50px;
+}
+
+#fournisseur_equipement {
+	display: block;
+	float: left;
+	clear: both;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	margin-left: 50px;
+}
+/************** FOOTER **************/
+
+#footer {
+	clear: both;
+}
+
+#footer p {
+	margin-right: 20px;
+}
+
+#footer table {
+	margin: 0 auto;
+}
+
+/************************************************ MENU **************************************************/
+
+/******************* DISPOSITION **********************/
+@font-face
+{
+  font-family:"WebSymbolsRegular";
+  src: url("breezi_font-webfont.ttf") format("truetype");
+}
+
+
+#menu {
+	list-style: none;
+	width: 300px;
+}
+
+.font_maison {
+	font-family: 'WebSymbolsRegular', cursive;
+	font-size: 60px;
+	position: absolute;
+	height: 150px;	
+	margin-top: 45px;
+	margin-left: 40px;
+	-webkit-transition: 1s; 
+}
+
+#menu ul {
+	padding: 0;
+	margin: 0;
+}
+
+#menu li {
+	height: 150px;
+	background-color: #e4e4e4;
+	top: 150px;
+}
+
+#menu li li {
+	max-height:0;
+	overflow: hidden;
+	transition: all 1s;
+	border-radius:0;
+	background: #444;
+	box-shadow: none;
+	border:none;
+	margin:0;
+	position: relative;
+} 
+
+#menu ul li a, #menu li:hover li a {
+  font-size:1em;
+}
+
+#menu li:hover ul {
+	height: auto;
+}
+
+#menu li:hover {
+	color: #2575ac;
+}
+
+#menu li li:hover {
+	background: #999;
+}
+
+#menu ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+
+#menu li:hover li {
+  max-height: 2em;
+  top: 150px;
+  border-top: 1px solid black;
+}
+
+.menu_content {
+	/*position: absolute;
+	left: 100px;
+	width: 300px;
+	height: 150px;*/
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.menu_content h2 {
+	text-align: center;
+}
+
+.menu_icon {
+	/*position: absolute;
+	width: 90px;
+	height: 150px;	
+	margin-left: 20px;*/
+	margin: 0 auto;
+}
+
+.menu_icon img {
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+
+/********************* ACTIVITE ***********************/
+
+#menu li:hover {
+	background-color: #e0f0fa;
+}
+
+/******************* ANIMATION **********************/
+
+@-webkit-keyframes marge {
+	0% {
+		margin-top: 160px;
+	}
+	100% {
+		
+	}
+}
+
+#menu li:hover  .menu_content h2{
+	-webkit-animation-name: marge;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;  
+}
+
+#menu li:hover .font_maison {
+	font-size: 80px;
+	margin-left: 30px;
+}
+
+#prestations {
+	-webkit-transition: 1s;
+	border-top: 1px solid black;
+}
