@@ -3,7 +3,7 @@
 			<li>
 				<a>
 					<div class='menu_icon'>
-						<span class='font_maison'>h</span>
+						<span class='WebSymbolsRegular'>h</span>
 					</div>
 					<div class='menu_content'>
 						<h2>Accueil</h2>
@@ -16,15 +16,17 @@
 			<li>
 				<a>
 					<div class='menu_icon'>
-						<span class='font_maison'>a</span>
+						<span class='LigatureSymbols'>memo</span>
 					</div>
 					<div class='menu_content'>
 						<h2>Prestations</h2>
 					</div>
 				</a>
 				<ul class='niveau_prestations'>
-					<li>item 1</li>
-					<li>item 2</li>
+					<li>Intégrateur de solutions</li>
+					<li>Formation Consulting</li>
+					<li>Fournisseur d'accès Internet</li>
+					<li>Fournisseur d'équipement</li>
 				</ul>
 			</li>
 		</div>
@@ -33,18 +35,14 @@
 			<li>
 				<a>
 					<div class='menu_icon'>
-						<span class='font_maison'>a</span>
+						<span class='LigatureSymbols'>server</span>
 					</div>
 					<div class='menu_content'>
 						<h2>Produits</h2>
 					</div>
 				</a>
 				<ul class='niveau_produits'>
-					<li>item 1</li>
-					<li>item 2</li>
-					<li>item 3</li>
-					<li>item 4</li>
-					<li>item 5</li>
+
 				</ul>
 			</li>
 		</div>	
@@ -53,7 +51,7 @@
 			<li>
 				<a>
 					<div class='menu_icon'>
-						<span class='font_maison'>a</span>
+						<span class='LigatureSymbols'>group</span>
 					</div>
 					<div class='menu_content'>
 						<h2>Partenaires</h2>
@@ -65,7 +63,7 @@
 			<li>
 				<a>
 					<div class='menu_icon'>
-						<span class='font_maison'>m</span>
+						<span class='WebSymbolsRegular'>m</span>
 					</div>
 					<div class='menu_content'>
 						<h2>Contact</h2>
