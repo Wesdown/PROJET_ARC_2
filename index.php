@@ -24,7 +24,7 @@
 								<li>Communication unifiée & ToIP</li>
 								<li>Applications d'entreprise</li>
 								<li>Sécurité physique</li>
-								<li>Editeur de logiciels</li>
+								<li>Editeur de logi</li>
 							</p>
 						</div>
 					</div>
